@@ -33,6 +33,10 @@ export default {
       url: `https://mainnet.boba.network`, 
       accounts: [process.env.PRIVATE_KEY],
     },
+    bobaTestnet: {
+      url: `https://sepolia.boba.network`, 
+      accounts: [process.env.PRIVATE_KEY],
+    },
     OG: {
       url: `https://evmrpc-testnet.0g.ai`, 
       accounts: [process.env.PRIVATE_KEY],
